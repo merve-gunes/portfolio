@@ -5,7 +5,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
 
         const targetId = this.getAttribute('href');
         const targetSection = document.querySelector(targetId);
-        targetSection.scrollIntoView({
+    targetSection.scrollIntoView({
             behavior: 'smooth'
         });
     });
