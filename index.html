@@ -3,40 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Merve Safa Güneş | Portfolyo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav>
-        <div class="logo">
-        <h1>MERVE SAFA GÜNEŞ</h1>
-    </div>
-    <ul>
-        <li><a href="#about">Hakkımda</a></li>
-        <li><a href="#projects">Projelerim</a></li>
-        <li><a href="#contact">İletişim</a></li>
-    </ul>
+        <div class="logo">MERVE SAFA GÜNEŞ</div>
+        <ul>
+            <li><a href="#hakkimda">Hakkımda</a></li>
+            <li><a href="#projelerim">Projelerim</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+        </ul>
     </nav>
-    <header>
-        <h2>Merhaba ben Merve Safa Güneş</h2>
-        <p> Web geliştirme yolculuğumun başındayım ve öğrendiklerimi projelere dönüştürmekten keyif alıyorum.</p>
-        <button type="button">Bana Ulaşın</button>
-        <section id="projcets">
-        <h2>Projelerim</h2>
-        <div id="project-List" class="project-grid"></div>
-        </section>
-
-    <footer id="contact">
-    <h2>İletişim</h2>
-    <p>Bana bu kanallardan ulaşabilirsiniz:</p>
-    <div class="social-links">
-        <a href="https://github.com/merve-gunes" target="_blank">Github</a>
-        <a href="https://www.linkedin.com/in/merve-safa-g%C3%BCne%C5%9F-39438432a/" target="_blank">LinkedIn</a>
-        <a href="mailto:mervegunes1454gmail.com">E-posta</a>
-    </div>
-    <p>&copy; 2026 Merve Safa Güneş</p>
-    </footer>
+    <header id="hakkimda">
+        <h1>Merhaba ben Merve Safa Güneş</h1>
+        <p>Web geliştirme yolculuğumun başındayım ve öğrendiklerimi projelere dönüştürmekten keyif alıyorum.</p>
+        <a href="#iletisim" class="btn">Bana Ulaşın</a>
     </header>
+
+    <section id="projelerim">
+        <h2>Projelerim</h2>
+        <div class="project-container">
+        <div class="project-card">
+            <img src="https://via.placeholder.com/300x200" alt="Proje 1 Görseli">
+            <h3>Proje Adı 1</h3>
+            <p>Bu proje hakkında kısa bir açıklama.HTML, CSS ve JavaScript kullanıldı. </p>
+            <a href="#" class="btn-small">Projeyi gör</a>
+        </div>
+
+        <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Proje 2 Görseli">
+        <h3>Proje Adı 2</h3>
+        <p>Responsive tasarım uygulaması.Mobil uyumlu bir modern arayüz</p>
+        <a href="#" class="btn-small">Projeyi gör</a>
+        </div>
+        <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Proje 3 Görseli">
+                <h3>Proje Adı 3</h3>
+                <p>Bir API'den veri çeken ve listeleyen dinamik bir web uygulaması.</p>
+                <a href="#" class="btn-small">Projeyi Gör</a>
+            </div>
+            </div>
+
+    </section>
+    <footer id="iletisim">
+        <h2>İletişim</h2>
+        <p>Bana bu kanallardan ulaşabilirsiniz:</p>
+        <div class="social-links">
+        <a href="https://github.com/merve-gunes" target="_blank"><i class="fab fa-github"></i>Github</a>
+        <a href="https://www.linkedin.com/in/merve-safa-g%C3%BCne%C5%9F-39438432a/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        <a href="mailto:mervegunes1454@gmail.com"><i class="fas fa-envelope"></i>E-posta</a>
+        </div>
+         <p>&copy; 2026 Merve Safa Güneş</p>
+    </footer>
     <script src="script.js"></script>
+    
 </body>
 </html>
